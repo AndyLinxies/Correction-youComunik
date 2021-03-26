@@ -1,0 +1,175 @@
+body{
+    width: 60%; /*largeur du body */
+    margin: 0 auto; /*création des marges du body */
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 35px 1px rgb(172, 172, 172);
+}
+
+/*navbar*/
+nav{
+    background-color: black;
+    display: flex; /* mettre en ligne les éléments de la navbar*/
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex; /* mettre en ligne les elements de la partie droite de la navbar*/
+    color: white;
+}
+
+.menu > div {
+    margin: 8px; /*crée de l'espacement autour de cahque div*/
+    font-size: 12px;
+    text-align: center; /* permet d'aligner le text par rapport a sa div*/
+}
+
+.logo > img {
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+/*section packages*/
+
+.packages{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(51, 77, 92);
+}
+
+#logo-packages{
+    width: 30%;
+}
+
+#logo-packages>img{
+    margin: 55px 100px;
+}
+
+#text-packages{
+    width: 70%;
+    color: white;
+    padding-top: 10px;
+    padding-left: 28px;
+}
+
+#text-packages > .up{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+#text-packages > .down{
+    font-size: 37px;
+    margin-top: 10px;
+}
+
+/* section eclosion, evolution et envol */
+.title-eclosion{
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.title-eclosion>h1{
+    background-color: rgb(51, 77, 92);
+    padding: 15px 55px;
+    margin: 70px auto;
+    width: 30%;
+}
+
+.div-eclosion{
+    display: flex;
+}
+
+#eclosion{
+    width: 30%;
+}
+
+#eclosion >img{
+    margin: 22px 70px;
+}
+
+#text-eclosion{
+    width: 70%;
+    padding: 0 150px;
+    font-size: 18px;
+}
+
+/* section logo eclosion, evolution, envol */
+
+.dispo-logo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #eae3d6;
+}
+
+.pad{
+    padding: 35px 90px;
+}
+
+.dispo-logo>div{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.dispo-logo>div>img{
+    width: 90px;
+}
+
+/* section logo evolution modif */
+.dispo-logo-exception{
+    display: flex;
+    justify-content: space-around;
+    background-color: #eae3d6;
+    padding: 0px 90px;
+}
+
+.padEvo{
+    padding: 35px 90px 0px;
+}
+
+.dispo-logo-exception>div{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.dispo-logo-exception>div>img{
+    width: 90px;
+}
+
+/* section footer */
+.div-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #393a3b;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.div-footer>div>p{
+    margin-left: 13px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.div-footer>div>img{
+    width: 65px;
+    margin: 10px;
+}
+
+.cond{
+    width: 100%;
+    text-align: end;
+    background-color: #393a3b;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+
+.cond>p{
+    margin: 0;
+    margin-right: 15px;
+    padding-top: 15px;
+}
